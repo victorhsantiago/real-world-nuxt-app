@@ -23,14 +23,19 @@ export default {
             'Where you can find all events taking place in your neighborhood',
         },
       ],
+      link: [
+        {
+          rel: 'stylesheet',
+          href:
+            'https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans&display=swap',
+        },
+      ],
     }
   },
 }
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans&display=swap');
-
 html {
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
