@@ -5,12 +5,12 @@
 </template>
 
 <script>
+import { getEvent } from '@/services/EventService.js'
+
 export default {
-  async asyncData({ $axios, error, params }) {
+  async asyncData({ error, params }) {
     try {
-      const { data } = await $axios.get(
-        `http://localhost:3001/events/${params.id}`
-      )
+      const { data } = await getEvent(params.id)
       return { event: data }
     } catch (e) {
       error({
