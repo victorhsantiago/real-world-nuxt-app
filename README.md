@@ -1,10 +1,10 @@
-# portifolio
+# Real world NuxtJS app
 
 > My remarkable Nuxt.js project
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 $ yarn install
 
