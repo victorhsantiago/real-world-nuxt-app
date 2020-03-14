@@ -2,7 +2,13 @@
 
 > My remarkable Nuxt.js project
 
-## Build Setup
+You can see the app running on both links bellow, each with its own deployment strat
+
+### 🌐 [Universal mode deployment](https://real-world-events-nuxt.herokuapp.com/)
+
+### ⚓️ [Static-generated deployment](https://zen-wing-b96e85.netlify.com/)
+
+### 🛠 Build Setup
 
 ```bash
 # install dependencies
@@ -19,4 +25,4 @@ $ yarn start
 $ yarn generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+📖 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
